@@ -55,6 +55,8 @@ if valid_move?(board, index) == true
 else #until valid_move?(board, index) == true
   puts "Please enter 1-9:"
 
+  user_input = gets
+
 #end
 end
 
