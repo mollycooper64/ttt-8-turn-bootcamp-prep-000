@@ -50,7 +50,7 @@ user_input = gets
 index = input_to_index(user_input)
 
 if valid_move?(board, index)
-  move(board, index, character)
+  move(board, index, characterearn)
 
 else until valid_move?(board, index) == true
   puts "Please enter 1-9:"
